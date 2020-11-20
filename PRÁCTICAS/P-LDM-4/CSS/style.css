@@ -1,0 +1,19 @@
+.head{
+    text-align: center;
+    color: red;
+    background-color: black;
+    padding: 20px;
+}
+.estudios{
+    background-color: lightgray;
+    padding: 20px;
+    
+}
+.aficiones{
+    background-color: lightgreen;
+    padding: 20px;
+}
+.linkedin{
+    text-align: center;
+    padding: 10px;
+}
