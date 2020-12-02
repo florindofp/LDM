@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "monoton";
+    src: url("fonts/monoton.woff2");
+}
+
+.body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1{
+    font-family: "monoton";
+    text-align: center;
+    color: #05c705;
+}
+
+table{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titulos{
+    background-color: #05c705;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pie{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #05c705;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    background-image: url(img\matrix.png);
+}
