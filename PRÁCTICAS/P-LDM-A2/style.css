@@ -10,10 +10,10 @@
 }
 
 .container{
-    background-image: url("img\matrix.png"), url("img\matrix2.png");
+    background-image: url("img/matrix.png"), url("img/matrix2.png");
     background-position: left top, right top;
     background-repeat: repeat-y, repeat-y;
-    background-size: 50px, 50px;
+    background-size: 100px, 100px;
     margin-left: 10%;
     margin-right: 10%;
 }
