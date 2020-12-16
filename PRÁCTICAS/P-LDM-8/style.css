@@ -1,16 +1,75 @@
 .bloque1{
-    background-color: ;
+    background-image: url("fondos/manchas.png");
+    background-attachment: fixed;
+    background-size: 50px, 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 3px black solid;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 .bloque2{
-    background-color: ;
+    background-color: blue;
+    background-image: url("fondos/fuego.svg"), url("fondos/fuego.svg"), url("fondos/tallos.jpg");
+    background-position: left bottom, right bottom, left top;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 50px, 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 3px black solid;
+    text-align: center;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 .bloque3{
-    background-color: ;
+    background-image: url("fondos/ojo.svg"), url("fondos/hexagonos.jpg");
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: 300px, 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 3px black solid;
+    text-align: center;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 .bloque4{
-    background-color: ;
+    background-image: url("fondos/caballo.svg"), url("fondos/estrellas.png");
+    background-position: bottom , center;
+    background-repeat: repeat-x, repeat;
+    background-size: 80px, 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 3px black solid;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 
-.bloque{
-
+body{
+    background-image: url("fondos/corazon-1.svg"), url("fondos/corazon-2.svg");
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 50px, 50px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
