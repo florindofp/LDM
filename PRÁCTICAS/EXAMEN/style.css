@@ -1,0 +1,73 @@
+@font-face {
+    font-family: monotom-custom;
+    src: url("ajedrez-plantilla/fredoka-one.woff");
+}
+
+h1{
+    font-family: monotom-custom;
+    text-transform: uppercase;
+    text-align: center;
+    color: #005E54;
+    text-shadow: white 0.1em 0.1em;
+}
+h2{
+    font-family: monotom-custom;
+    color: #005E54;
+}
+
+body{
+    background-color: #34B2A4;
+    background-image: url("ajedrez-plantilla/cuadros.png"), url("ajedrez-plantilla/cuadros.png");
+    background-position: left, right;
+    background-repeat: repeat-y;
+    text-align: justify;
+}
+
+.table{
+    text-align: center;
+    border: white solid 7px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+.historia{
+    border-top: #005E54 5px solid;
+    border-bottom: #005E54 5px solid;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.ajedrez{
+    float: right;
+}
+
+.maquinas{
+    border-bottom: #005E54 5px solid;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.cronologia{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.grafica{
+    text-align: center;
+    border-bottom: black solid 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.grafica2{
+    
+    outline: black solid 5px;
+    margin-bottom: 5%;
+}
+
+.pie{
+    text-align: center;
+    border-top: solid white 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
