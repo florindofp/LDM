@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE receta SYSTEM "receta2.dtd">
+
+<receta> 
+    <parrafo>Esto es un párrafo</parrafo>
+    <titulo>Segunda receta</titulo>
+    <ingredientes>Salmón</ingredientes>
+    <procedimiento>Freir a la plancha</procedimiento>
+</receta>
