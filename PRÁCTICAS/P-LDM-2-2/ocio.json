@@ -1,6 +1,6 @@
 {
     "Ciudad": "Palencia",
-    "Comunidad": "CyL",
+    "Comunidad": "Castilla y León",
     "Habitantes": "75.000",
     "Bares": [
         {
@@ -44,7 +44,7 @@
             "Coste": "Alto",
             "Adaptación Movilidad Reducida": "No",
             "Dirección": "Avenida del Puente, 18o, 34209 Tariego de Cerrato, Palencia",
-            "Tipo": "Mesón",
+            "Tipo": "Mesón/Asador",
             "Recomendable": "5/5",
             "Ubicación": "https://www.google.com/maps/place/Mes%C3%B3n+La+Cueva/@41.9041419,-4.4820708,17z/data=!4m12!1m6!3m5!1s0xd47a95664798b25:0x3cf4c5b63376eb64!2sMes%C3%B3n+La+Cueva!8m2!3d41.9041419!4d-4.4798821!3m4!1s0xd47a95664798b25:0x3cf4c5b63376eb64!8m2!3d41.9041419!4d-4.4798821"  
         }
