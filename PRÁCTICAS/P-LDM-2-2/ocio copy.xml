@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/css" href="css.css"?>
 <agenda_ocio>
     <ciudad>Palencia</ciudad>
     <comunidad>Castilla y León</comunidad>
-    <habitantes>75.000</habitantes>
+    <habitantes>75.000 habitantes</habitantes>
+    <tema>AGENDA DE OCIO Y CULTURAL</tema>
     <bares>
         <bar>
             <nombre>Lina Morgan Freeman</nombre>
