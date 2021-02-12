@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>AGENDA PALENCIA</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+        <div class="alert alert-info" role="alert">
+        <h1 class="alert-heading">Ciudad: {{jsonObject.Ciudad}}</h1>
+        <!--  CAMPOS SIMPLES -->
+        <ul>
+          <li>Ciudad: {{jsonObject.Ciudad}}</li>
+          <li>Comunidad: {{jsonObject.Comunidad}}</li> 
+          <li>Habitantes: {{jsonObject.Habitantes}}</li> 
+        </div>
+        <h1>BARES</h1>
+        <div v-for="bar in jsonObject.Bares">
+          <ul>
+            <li>Nombre: {{bar.Nombre}}</li>
+            <li>Coste: {{bar.Coste}}</li>
+            <li>Dirección: {{bar.Dirección}}</li>
+            <li>Tipo: {{bar.Tipo}}</li>
+            <li>Recomendable: {{bar.Recomendable}}</li>
+          </ul>
+        </div>
+        <h1>OCIO</h1>
+        <div v-for="ocio in jsonObject.Ocio">
+          <ul>
+            <li>Nombre: {{ocio.Nombre}}</li>
+            <li>Coste: {{ocio.Coste}}</li>
+            <li>Dirección: {{ocio.Dirección}}</li>
+            <li>Tipo: {{ocio.Tipo}}</li>
+            <li>Recomendable: {{ocio.Recomendable}}</li>
+          </ul>
+        </div>
+    </div>
+
+    <script>
+
+      const App = new Vue({
+        el: '#app',
+        data: {
+          jsonObject: {}
+        },
+        methods: {
+            init() {
+              fetch("https://raw.githubusercontent.com/Arrako23/LDM/master/PR%C3%81CTICAS/P-2-LDM-2/ocio.json")
+              .then(response => response.json())
+              .then(data => (this.jsonObject = data));
+            }
+        },
+        mounted(){
+            this.init()
+        }
+      })
+    </script>
+  </body>
+</html>
