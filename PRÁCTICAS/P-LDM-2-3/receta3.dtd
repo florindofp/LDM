@@ -1,3 +1,0 @@
-<!ELEMENT receta (ingredientes, procedimiento)>
-<!ELEMENT ingredientes (#PCDATA)>
-<!ELEMENT procedimiento (#PCDATA)>

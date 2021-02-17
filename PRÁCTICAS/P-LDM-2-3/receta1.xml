@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE receta SYSTEM "receta1.dtd">
-
-<receta> 
-    <titulo>Primera receta</titulo>
-    <ingredientes>Carne de ternera</ingredientes>
-    <procedimiento>Freir a la plancha</procedimiento>
-</receta>
