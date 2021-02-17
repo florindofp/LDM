@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE aviso SYSTEM "aviso.dtd">
+<aviso>
+    <titulo>PRUEBA DTD</titulo>
+    <parrafo>ASIR</parrafo>
+    <grafico>grafico1</grafico>
+    <parrafo>LDM</parrafo>
+    <grafico>grafico2</grafico>
+</aviso>

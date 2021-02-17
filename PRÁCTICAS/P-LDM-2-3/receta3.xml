@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE receta SYSTEM "receta3.dtd">
+
+<receta> 
+    <ingredientes>Patatas fritas</ingredientes>
+    <procedimiento>Freir con mucho aceite</procedimiento>
+</receta>
